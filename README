@@ -1,0 +1,15 @@
+This script, given a directory, will scrape all subdirectories for fastQC output
+ files (called "fastqc_data") and generate R code as output which, when piped through R,
+ generates compiled data plots.
+
+ USAGE: process_experiment.pl <directory_with_fastqc_outputs> <outputdir> | R --slave
+ INPUT: a directory (first argument) that has multiple output files from FastQC for 
+	different samples
+ OUTPUT: a directory (second argument) created by the script if it doesn't exist with the html 
+	and a subdirectory for the PNG images.
+
+ Example:
+ ./process_experiment.pl /data/experiment/103R ~/output | R --slave
+
+N.B. At this time, you need to run the program from inside the directory where the
+process_experiment script is located. 

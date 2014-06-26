@@ -1,0 +1,307 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN">
+<html>
+<head><title>ETS1_00hour.fastq.bz2 FastQC Report</title>
+
+<style type="text/css">
+
+ @media screen {
+  div.summary {
+    width: 18em;
+    position:fixed;
+    top: 3em;
+    margin:1em 0 0 1em;
+  }
+  
+  div.main {
+    display:block;
+    position:absolute;
+    overflow:auto;
+    height:auto;
+    width:auto;
+    top:4.5em;
+    bottom:2.3em;
+    left:18em;
+    right:0;
+    border-left: 1px solid #CCC;
+    padding:0 0 0 1em;
+    background-color: white;
+    z-index:1;
+  }
+  
+  div.header {
+    background-color: #EEE;
+    border:0;
+    margin:0;
+    padding: 0.5em;
+    font-size: 200%;
+    font-weight: bold;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:2;
+  }
+
+  div.footer {
+    background-color: #EEE;
+    border:0;
+    margin:0;
+	padding:0.5em;
+    height: 1.3em;
+	overflow:hidden;
+    font-size: 100%;
+    font-weight: bold;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    z-index:2;
+  }
+  
+  img.indented {
+    margin-left: 3em;
+  }
+ }
+ 
+ @media print {
+	img {
+		max-width:100% !important;
+		page-break-inside: avoid;
+	}
+	h2, h3 {
+		page-break-after: avoid;
+	}
+	div.header {
+      background-color: #FFF;
+    }
+	
+ }
+ 
+ body {    
+  font-family: sans-serif;   
+  color: #000;   
+  background-color: #FFF;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  }
+  
+  div.header {
+  border:0;
+  margin:0;
+  font-size: 100%;
+  font-weight: bold;
+  width:100%;
+  }    
+  
+  #header_title {
+  display:inline-block;
+  float:left;
+  clear:left;
+  }
+  #header_filename {
+  display:inline-block;
+  float:right;
+  clear:right;
+  font-size: 50%;
+  margin-right:2em;
+  text-align: right;
+  }
+
+  div.header h3 {
+  font-size: 50%;
+  margin-bottom: 0;
+  }
+  
+  div.summary ul {
+  padding-left:0;
+  list-style-type:none;
+  }
+  
+  div.summary ul li img {
+  margin-bottom:-0.5em;
+  margin-top:0.5em;
+  }
+	  
+  div.main {
+  background-color: white;
+  }
+      
+  div.module {
+  padding-bottom:1.5em;
+  padding-top:1.5em;
+  }
+	  
+  div.footer {
+  background-color: #EEE;
+  border:0;
+  margin:0;
+  padding: 0.5em;
+  font-size: 100%;
+  font-weight: bold;
+  width:100%;
+  }
+
+
+  a {
+  color: #000080;
+  }
+
+  a:hover {
+  color: #800000;
+  }
+      
+  h2 {
+  color: #800000;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  clear:left;
+  }
+
+  table { 
+  text-align: center;
+  }
+  
+  th { 
+  text-align: center;
+  background-color: #000080;
+  color: #FFF;
+  }      
+  
+  td { 
+  font-family:arial;
+  font-size:12pt;
+  text-align: left;
+  color: #000;
+  }
+
+  img {
+  padding-top: 0;
+  margin-top: 0;
+  border-top: 0;
+  }
+
+  
+  p {
+  padding-top: 0;
+  margin-top: 0;
+  }
+  
+</style>
+
+</head>
+<body>
+<div class="header">
+<div id="header_title"><img src="Icons/fastqc_icon.png" alt="FastQC">FastQC Report</div>
+<div id="header_filename">
+Thu 7 Nov 2013<br />
+ETS1_00hour.fastq.bz2
+</div>
+</div>
+<div class="summary">
+<h2>Summary</h2>
+<ul>
+<li> <a href="#M0">Sample names</a></li>
+<li> <a href="#M1">Per base sequence quality</a></li>
+<li> <a href="#M2">Per sequence quality scores</a></li>
+<li> <a href="#M4">Per base GC content</a></li>
+<li> <a href="#M5">Per sequence GC content</a></li>
+<li> <a href="#M6">Per base N content</a></li>
+<li> <a href="#M8">Sequence Duplication Levels</a></li>
+<li> <a href="#M9">Overrepresented sequences</a></li>
+<li> <a href="#M10">Kmer Content</a></li>
+</ul>
+</div>
+<div class="main">
+<h2 id="M0"> Sample file names</h2>
+<ul>
+</ul>
+<h3>NOTE: Samples only appear in the figure legends if they raised a warning or failure.</h3>
+
+<h2 id="M1">Per base sequence quality</h2>
+<img src="Images/per_base_quality.png" alt="Per base quality graph">
+<table> <tr><td width=650>
+<FONT SIZE=-1>
+A plotted line will be orange (Warning) if the lower quartile for any base is less than 10, or if the median for any base is less than 25.  A plotted line will be red (Failure) if the lower quartile for any base is less than 5 or if the median for any base is less than 20.
+</FONT>
+</td></tr></table>
+<BR>
+This view shows an overview of the range of quality values across all bases at each
+position in the FastQ file.
+<h2 id="M2"> Per sequence quality scores</h2>
+<img src="Images/per_sequence_quality.png" alt="Per Sequence quality graph">
+<table> <tr><td width=650>
+<FONT SIZE=-1>
+A plotted line will be orange (Warning) if the most frequently observed mean quality is below 27 (0.2% error rate).
+An error is raised if the most frequently observed mean quality is below 20 (1% error rate).
+</FONT>
+</td></tr></table>
+<BR>
+The per sequence quality score report allows you to see if a subset of your sequences
+have universally low quality values. It is often the case that a subset of sequences will 
+have universally poor quality, often because they are poorly imaged (on the edge of the
+field of view etc), however these should represent only a small percentage of the total
+sequences.  If a significant proportion of the seq uences in a run have overall low quality then this could
+indicate some kind of systematic problem - possibly with just part of the run (for example one end of a flowcell).
+<h2 id="M4"> Per base GC content</h2>
+<img src="Images/per_base_gc_content.png" alt="Per base GC content graph">
+<table> <tr><td width=650>
+<FONT SIZE=-1>
+A plotted line will be orange (Warning) if the GC content of any base strays more than 5% from the
+mean GC content. A plotted line will be red (Failure) if the GC content of any base strays more than 10% from the mean
+GC content.
+</FONT>
+</td></tr></table>
+<BR>
+In a random library you would expect that there would be little to no difference between
+the different bases of a sequence run, so the line in this plot should run horizontally across
+the graph. The overall GC content should reflect the GC content of the underlying genome.
+If you see a GC bias which changes in different bases then this could indicate an
+overrepresented sequence which is contaminating your library. A bias which is consistent
+across all bases either indicates that the original library was sequence biased, or that
+there was a systematic problem during the sequencing of the library.
+<h2 id="M5">Per sequence GC content</h2>
+<img src="Images/per_sequence_gc_content.png" alt="Per sequence GC content graph">
+<table> <tr><td width=650>
+<FONT SIZE=-1>A plotted line will be orange (Warning) if the sum of the deviations from the normal distribution represents
+more than 15% of the reads. A plotted line will be red (Failure) if the sum of the deviations from the normal distribution
+represents more than 30% of the reads.
+</FONT>
+<BR><BR>
+This module measures the GC content across the whole length of each sequence in a file
+and compares it to a modelled normal distribution of GC content.
+In a normal random library you would expect to see a roughly normal distribution of GC
+content where the central peak corresponds to the overall GC content of the underlying
+genome. Since we don't know the the GC content of the genome the modal GC content is
+calculated from the observed data and used to build a reference distribution.
+An unusually shaped distribution could indicate a contaminated library or some other kinds
+of biased subset. A normal distribution which is shifted indicates some systematic bias
+which is independent of base position. If there is a systematic bias which creates a shifted
+normal distribution then this won't be flagged as an error by the module since it doesn't
+know what your genome's GC content should be.
+</td></tr></table>
+<h2 id="M6"> Per base N content</h2>
+<img src="Images/per_base_n_content.png" alt="N content graph">
+<table> <tr><td width=650>
+<FONT SIZE=-1>A plotted line will be orange (Warning) if 
+any position shows an N content of >5%.
+A plotted line will be red (Failure) if any position shows an N content of >20%.
+</FONT>
+<br><Br>
+If a sequencer is unable to make a base call with sufficient confidence then it will normally
+substitute an N rather than a conventional base call
+This module plots out the percentage of base calls at each position for which an N was
+called.
+It's not unusual to see a very low proportion of Ns appearing in a sequence, especially
+nearer the end of a sequence. However, if this proportion rises above a few percent it
+suggests that the analysis pipeline was unable to interpret the data well enough to make
+valid base calls.
+</td></tr></table>
+<h2 id="M8"> Sequence Duplication Levels</h2>
+<img src="Images/duplication_levels.png" alt="Duplication level graph">
+<script type="text/javascript" src="overrep.js"></script>
+<!--#include virtual="overrep.html"-->
+
+<h2 id='M9'> Overrepresented sequences</h2> 
+<h2 id="M10"> Kmer Content</h2>
+<div class="footer">Produced by <a href="http://www.bioinformatics.babraham.ac.uk/projects/fastqc/">FastQC</a> (version 0.10.1)</div>
+</body></html>
